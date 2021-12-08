@@ -1,6 +1,6 @@
 # IOT_input_and_output_module
 This project will have all the code of the Giga Technology IOT Input and output units
-![Alt text](images/mqtt_2in_2out_Cont_12.png ?raw=true "2in 2 out Module")<br>
+![Alt text](/images/mqtt_2in_2out_Cont_12.png ?raw=true "2in 2 out Module")<br>
 Product Overview
 
     Support multiple channel relay, On/OFF/Jogging/Delay.
