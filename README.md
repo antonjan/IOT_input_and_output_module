@@ -5,7 +5,8 @@ This project will have all the code of the Giga Technology IOT Input and output 
 ## Modules
 1) 2 input and 2 output Module<br>
 2) 4 input and 4 output Module<b> 
-    The configeration below is similar for both modules<br>
+    
+The configeration below is similar for both modules<br>
 ![Alt text](images/mqtt_2in_2out_Cont_12.png?raw=true "2in 2 out Module")<br>
 ![Alt text](images/mqtt_2in_2out_Cont_11.png?raw=true "2in 2 out Module")<br>
 ![Alt text](images/mqtt_2in_2out_Cont_10.png?raw=true "2in 2 out Module")<br>
@@ -27,9 +28,10 @@ Product Overview
     Support Domoticz
     Support Home Assistant
     Support Node-RED
+    More details in <a href="https://github.com/antonjan/IOT_input_and_output_module/blob/main/doc/user_manual_en.pdf"> Operating manual</a><br>
 # Operating
 
-Connect 12V to power supply
+Connect 12V to power supply V+ and V-
 
 ## Connect to device wifi AP directely pw dtpassword
 ![Alt text](images/mqtt_2in_2out_Cont_15.png?raw=true "2in 2 out Module")<br>
