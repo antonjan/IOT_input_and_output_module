@@ -1,5 +1,7 @@
 # IOT_input_and_output_module
 This project will have all the code of the Giga Technology IOT Input and output units<br>
+## Operating Manual
+<a href="https://github.com/antonjan/IOT_input_and_output_module/blob/main/doc/user_manual_en.pdf" Operating manual</a><br>
 ## Modules
 1) 2 input and 2 output Module<br>
 2) 4 input and 4 output Module<b> 
