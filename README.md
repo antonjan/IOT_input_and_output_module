@@ -18,3 +18,7 @@ Product Overview
     Support Domoticz
     Support Home Assistant
     Support Node-RED
+
+Node-RED<br>
+![Alt text](images/mqtt_2in_2out_Cont_13.png?raw=true "2in 2 out Module")<br>
+<a href="https://github.com/antonjan/IOT_input_and_output_module/blob/main/node-red/flows_gt_mqtt_relay.json">Node red exsample flow code </a> 
