@@ -43,4 +43,5 @@ Now lets controle the GT Relay and input module by connecting you Node-RED to yo
 Below is a working exsample to read the inputs and control the rlay outputs for the unit<br>
 Node red flow code can be downloaded here <a href="https://github.com/antonjan/IOT_input_and_output_module/blob/main/node-red/flows_gt_mqtt_relay.json">Node red exsample flow code </a> <br>
 ![Alt text](images/mqtt_2in_2out_Cont_13.png?raw=true "2in 2 out Module")<br>
-<a href="https://github.com/antonjan/IOT_input_and_output_module/blob/main/node-red/flows_gt_mqtt_relay.json">Node red exsample flow code </a> 
+<a href="https://github.com/antonjan/IOT_input_and_output_module/blob/main/node-red/flows_gt_mqtt_relay.json">Node red exsample flow code </a> <br>
+![Alt text](images/mqtt_2in_2out_Cont_18.png?raw=true "2in 2 out Module")<br>
