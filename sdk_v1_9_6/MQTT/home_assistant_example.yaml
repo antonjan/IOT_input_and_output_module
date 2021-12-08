@@ -1,0 +1,60 @@
+
+switch:
+  - platform: mqtt
+    unique_id: dingtian100-r1
+    name: "Dingtian Ethernet Switch1"
+    state_topic: "/dingtian/relay100/out/r1"
+    command_topic: "/dingtian/relay100/in/r1"
+    availability:
+      - topic: "/dingtian/relay100/out/lwt_availability"
+        payload_available: "online"
+        payload_not_available: "offline"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    optimistic: false
+    qos: 0
+    retain: false
+
+  - platform: mqtt
+    unique_id: dingtian100-r2
+    name: "Dingtian Ethernet Switch2"
+    state_topic: "/dingtian/relay100/out/r2"
+    command_topic: "/dingtian/relay100/in/r2"
+    availability:
+      - topic: "/dingtian/relay100/out/lwt_availability"
+        payload_available: "online"
+        payload_not_available: "offline"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    optimistic: false
+    qos: 0
+    retain: false
+
+binary_sensor:
+  - platform: mqtt
+    unique_id: dingtian100-i1
+    name: "Dingtian Ethernet Input1"
+    state_topic: "/dingtian/relay100/out/i1"
+    availability:
+      - topic: "/dingtian/relay100/out/lwt_availability"
+        payload_available: "online"
+        payload_not_available: "offline"
+    payload_on: "ON"
+    payload_off: "OFF"
+    qos: 0
+
+  - platform: mqtt
+    unique_id: dingtian100-i2
+    name: "Dingtian Ethernet Input2"
+    state_topic: "/dingtian/relay100/out/i2"
+    availability:
+      - topic: "/dingtian/relay100/out/lwt_availability"
+        payload_available: "online"
+        payload_not_available: "offline"
+    payload_on: "ON"
+    payload_off: "OFF"
+    qos: 0

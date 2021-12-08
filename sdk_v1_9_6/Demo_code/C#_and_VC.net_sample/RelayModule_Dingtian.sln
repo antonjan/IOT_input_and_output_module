@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayModule_Dingtian_CSharp_Winform", "RelayModule_Dingtian\RelayModule_Dingtian_CSharp_Winform.csproj", "{1B8F5B86-1A4D-4E49-AF4F-EF3577817BAB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RelayModule_Dingtian_VBNET_Winform", "RelayModule_Dingtian_VBNET_Winform\RelayModule_Dingtian_VBNET_Winform.vbproj", "{F381F64C-FCC2-4952-8180-64C1DA6994FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayModule_Dingtian_CSharp_ConsoleApp", "RelayModule_Dingtian_CSharp_ConsoleApp\RelayModule_Dingtian_CSharp_ConsoleApp.csproj", "{A1B455F3-FCE3-44AC-9AA9-4FC0EC45FD90}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RelayModule_Dingtian_VBNET_ConsoleApp", "RelayModule_Dingtian_VBNET_ConsoleApp\RelayModule_Dingtian_VBNET_ConsoleApp.vbproj", "{4AC5B3ED-37ED-4FFB-A3AD-ED75C7D80B74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B8F5B86-1A4D-4E49-AF4F-EF3577817BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8F5B86-1A4D-4E49-AF4F-EF3577817BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8F5B86-1A4D-4E49-AF4F-EF3577817BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8F5B86-1A4D-4E49-AF4F-EF3577817BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F381F64C-FCC2-4952-8180-64C1DA6994FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F381F64C-FCC2-4952-8180-64C1DA6994FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F381F64C-FCC2-4952-8180-64C1DA6994FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F381F64C-FCC2-4952-8180-64C1DA6994FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B455F3-FCE3-44AC-9AA9-4FC0EC45FD90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B455F3-FCE3-44AC-9AA9-4FC0EC45FD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B455F3-FCE3-44AC-9AA9-4FC0EC45FD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B455F3-FCE3-44AC-9AA9-4FC0EC45FD90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC5B3ED-37ED-4FFB-A3AD-ED75C7D80B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC5B3ED-37ED-4FFB-A3AD-ED75C7D80B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC5B3ED-37ED-4FFB-A3AD-ED75C7D80B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC5B3ED-37ED-4FFB-A3AD-ED75C7D80B74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8716D6A-3446-4854-B567-517C61EF5DDF}
+	EndGlobalSection
+EndGlobal

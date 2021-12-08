@@ -1,0 +1,40 @@
+﻿example SN is 100
+
+MQTT id:
+ETH:dingtian-relay100
+WIFI:dingtian-wrelay100
+
+notice: publish default send every 30 second
+publish                                 example value
+/dingtian/relay100/out/lwt_availability  online,offline
+/dingtian/relay100/out/r1~8              ON or OFF
+/dingtian/relay100/out/i1~8              ON or OFF
+/dingtian/relay100/out/relay1~8          {"idx":"1","status":"OFF"}
+/dingtian/relay100/out/input1~8          {"idx":"1","status":"HIGH"} or {"idx":"1","status":"LOW"}
+/dingtian/relay100/out/ip                192.168.1.100
+/dingtian/relay100/out/sn                1
+/dingtian/relay100/out/mac               bc:34:88:00:00:ff
+/dingtian/relay100/out/input_cnt         4
+/dingtian/relay100/out/relay_cnt         4
+/dingtian/wrelay100/out/lwt_availability  online,offline
+/dingtian/wrelay100/out/r1~8              ON or OFF
+/dingtian/wrelay100/out/i1~8              ON or OFF
+/dingtian/wrelay100/out/relay1~8          {"idx":"1","status":"OFF"}
+/dingtian/wrelay100/out/input1~8          {"idx":"1","status":"HIGH"} or {"idx":"1","status":"LOW"}
+/dingtian/wrelay100/out/ip                192.168.1.100
+/dingtian/wrelay100/out/sn                1
+/dingtian/wrelay100/out/mac               bc:34:88:00:00:ff
+/dingtian/wrelay100/out/input_cnt         4
+/dingtian/wrelay100/out/relay_cnt         4
+
+
+subscribe                               example value
+/dingtian/relay100/in/control            {"type":"ON/OFF",'idx':'1',"status":"ON","time":"0","pass":"0"}
+/dingtian/relay100/in/r1~8               ON or OFF
+/dingtian/wrelay100/in/control            {"type":"ON/OFF",'idx':'1',"status":"ON","time":"0","pass":"0"}
+/dingtian/wrelay100/in/r1~8               ON or OFF
+
+
+MQTT LWT topic
+/dingtian/relay100/out/lwt_availability         online,offline
+/dingtian/wrelay100/out/lwt_availability        online,offline

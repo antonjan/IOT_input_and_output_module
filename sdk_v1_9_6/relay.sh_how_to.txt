@@ -1,0 +1,24 @@
+how to
+chmod +x relay.sh relay_status.sh
+
+./relay.sh 192.168.1.100 on 1
+./relay.sh 192.168.1.100 off 1
+./relay.sh 192.168.1.100 on 2
+./relay.sh 192.168.1.100 off 2
+./relay.sh 192.168.1.100 on 3
+./relay.sh 192.168.1.100 off 3
+./relay.sh 192.168.1.100 on 4
+./relay.sh 192.168.1.100 off 4
+./relay.sh 192.168.1.100 on 5
+./relay.sh 192.168.1.100 off 5
+./relay.sh 192.168.1.100 on 6
+./relay.sh 192.168.1.100 off 6
+./relay.sh 192.168.1.100 on 7
+./relay.sh 192.168.1.100 off 7
+./relay.sh 192.168.1.100 on 8
+./relay.sh 192.168.1.100 off 8
+./relay.sh 192.168.1.100 on X
+./relay.sh 192.168.1.100 off X
+
+
+./relay_status.sh 192.168.1.100

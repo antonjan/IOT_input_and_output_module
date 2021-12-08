@@ -1,0 +1,8 @@
+# apt-get install tcpdump
+
+new shell 1 conmand(listen boardcast at iface esn33 from port 60000)
+don't close shell,you will find relay board ip from this shell
+# tcpdump -i ens33 udp port 60000
+
+new shell 2 command(send boardcast to relay board)
+# echo -en '\x05\xAA' > /dev/udp/224.0.2.11/60000

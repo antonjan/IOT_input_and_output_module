@@ -1,0 +1,6 @@
+Thanks guilherme providing examples code
+
+RelayModule_Dingtian			C# code demo windows
+RelayModule_Dingtian_CSharp_ConsoleApp	C# code demo console
+RelayModule_Dingtian_VBNET_Winform		VC.NET code demo windows
+RelayModule_Dingtian_VBNET_ConsoleApp	VC.NET code demo console
