@@ -3,8 +3,11 @@ This project will have all the code of the Giga Technology IOT Input and output 
 ## Modules
 1) 2 input and 2 output Module<br>
 2) 4 input and 4 output Module<b> 
-    The configeration below is similar for both modules
+    The configeration below is similar for both modules<br>
 ![Alt text](images/mqtt_2in_2out_Cont_12.png?raw=true "2in 2 out Module")<br>
+![Alt text](images/mqtt_2in_2out_Cont_11.png?raw=true "2in 2 out Module")<br>
+![Alt text](images/mqtt_2in_2out_Cont_10.png?raw=true "2in 2 out Module")<br>
+![Alt text](images/mqtt_2in_2out_Cont_8.png?raw=true "2in 2 out Module")<br>    
 Product Overview
 
     Support multiple channel relay, On/OFF/Jogging/Delay.
