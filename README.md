@@ -29,7 +29,7 @@ Connect 12V to power supply
 got url in browser http://192.168.7.1 Login with admin admin
 ![Alt text](images/mqtt_2in_2out_Cont_2.png?raw=true "2in 2 out Module")<br>
 Now select settings
-![Alt text](images/mqtt_2in_2out_Cont_2.png?raw=true "2in 2 out Module")<br>
+![Alt text](images/mqtt_2in_2out_Cont_16.png?raw=true "2in 2 out Module")<br>
 
 
     
