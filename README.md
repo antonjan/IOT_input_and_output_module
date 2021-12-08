@@ -23,8 +23,13 @@ Product Overview
 Connect 12V to power supply
 
 ## Connect to device wifi AP directely
+![Alt text](images/mqtt_2in_2out_Cont_15.png?raw=true "2in 2 out Module")<br>
 
 ## Configer wifi and MQTT details
+got url in browser http://192.168.7.1 Login with admin admin
+![Alt text](images/mqtt_2in_2out_Cont_2.png?raw=true "2in 2 out Module")<br>
+Now select settings
+![Alt text](images/mqtt_2in_2out_Cont_2.png?raw=true "2in 2 out Module")<br>
 
 
     
